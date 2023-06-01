@@ -8,7 +8,7 @@ public class Snack3 {
         int sum = 0;
 
         // Calcola la somma degli elementi in posizione dispari
-        for (int i = 0; i < number.length; i = i + 2) {
+        for (int i = 1; i < number.length; i = i + 2) {
             sum = sum + number[i];
         }
 
