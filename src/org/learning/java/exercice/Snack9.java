@@ -1,6 +1,6 @@
 package org.learning.java.exercice;
 
-import java.util.Scanner;
+
 
 public class Snack9 {
     //Calcola la somma e la media dei primi 10 numeri.
