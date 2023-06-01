@@ -9,6 +9,7 @@ public class Snack4 {
         Scanner wordIn = new Scanner(System.in);
 
         //request word
+        System.out.println("inserisci la parola da controllare: ");
         String word = wordIn.next();
 
 
