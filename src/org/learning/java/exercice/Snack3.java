@@ -8,11 +8,10 @@ public class Snack3 {
         int sum = 0;
 
         // Calcola la somma degli elementi in posizione dispari
-        for (int i = 0; i < number.length; i ++) {
-            if (number[i] % 2 != 0 ){
-                sum = number[i] + sum;
-            }
+        for (int i = 0; i < number.length; i = i + 2) {
+            sum = sum + number[i];
         }
+
 
         System.out.println("La somma degli elementi in posizione dispari è: " + sum);
     }
